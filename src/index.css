@@ -4,22 +4,7 @@ body {
   font-family: sans-serif;
 }
 
-.contact {
-    display:flex;
-    border-bottom: 1px solid black;
-    line-height: 64px;
-    font-size: 1.5em;
-}
-
-.contact:last-child {
-    border: 0;
-}
-
-.contact-name, .contact-address {
-    margin: 0 10px;
-}
-
-.contact-name {
-    flex-grow: 1
+h2 {
+    font-size: 1em;
 }
 
