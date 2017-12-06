@@ -1,6 +1,5 @@
 .contact {
     display: flex;
-    border-bottom: 1px solid black;
     line-height: 64px;
     font-size: 1.5em;
 }
@@ -24,6 +23,7 @@
 }
 
 .contact-address {
+  font-style: normal;
   order: 2;
 }
 
