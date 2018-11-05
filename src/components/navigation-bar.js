@@ -14,7 +14,7 @@ export default function NavigationBar(props) {
   return (
       <div className="navigation-bar">
       <h1>{props.title}</h1>
-      <nav className="navigation-bar-nav">{navItems}</nav>
+      <nav className="navigation-bar-nav"><ul>{navItems}</ul></nav>
       </div>
     );
 }
